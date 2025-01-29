@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {mullish : ["Mulish", "sans-serif" ], 
       },
+      container: {
+        center: true, 
+      },
       colors: {
         deepblue:  "#02042a",
         lightBlue: "#2b84ea", 
