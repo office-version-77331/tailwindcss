@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className='h-screen'>
       <ul className='  mt-5 flex'>
         <li className='p-3  text-white bg-black'><a href="">Home</a></li>
         <li className='p-3  text-white bg-black'><a href="">Home</a></li>
@@ -45,6 +45,10 @@ const Home = () => {
 
        <div className='bg-emerald-400 mt-6 container '> {/** containers  */}
           <h2>Hello Buddy,  How are yuo </h2>
+          <div className='bg-green-400 mt-5 h-24 '> container</div>
+          <div className='bg-green-400 mt-5 h-24 '> container</div>
+          <div className='bg-green-400 mt-5 h-24 '> container</div>
+          <div className='bg-green-400 mt-5 h-24 '> container</div>
        </div>
  {/** Background classes  */}
        <div className={ ` h-96 bg-blue-900  bg-[url('/src/assets/rozarpay.png')] bg-no-repeat bg-center bg-contain`}>
@@ -109,6 +113,28 @@ const Home = () => {
         <h2 className='text-black  font-extrabold bg-white '>div </h2>
         <h2 className='text-black  font-extrabold bg-white '>div </h2>
          </div>
+
+        <div className=' bg-red-500 h-9 flex my-7 rounded-md transition-all duration-200 hover:size-16 items-center justify-center hover:cursor-pointer '>
+          login
+        </div>
+        <div className='mt-5 flex gap-3 px-3 py-4  bg-black '>
+          <button className='bg-amber-500 shadow rounded-sm px-3 py-2 transition-all duration-200  hover:bg-lime-500 hover:shadow-orange-300 text-white font-bold '>Login</button>
+          <button className='bg-amber-500 rounded-sm px-3 py-2  transition-all duration-200 hover:scale-110 text-white font-bold '>Sign Up</button>
+          <button className='bg-amber-500 rounded-sm px-3 py-2 transition-all duration-200  hover:scale-y-100 hover:scale-x-125  text-white font-bold '>Know more</button>
+           </div>  
+           <div className='bg-red-600 rounded-full size-10 shadow-lg mx-6  shadow-emerald-700 animate-bounce '>
+             
+           </div>
+           <hr />
+           <div className='bg-red-600 rounded-full h-10 w-10 shadow-lg mx-6  shadow-emerald-700 animate-spin '>
+             
+           </div>
+           <hr />
+           <div className='bg-red-600 rounded-full h-10 w-10   mx-6  shadow-emerald-700 animate-ping '>
+             
+           </div>
+           <div className='mt-7 text-white  bg-deepblue   dark:bg-white dark:text-black font-bold '>twxt</div>
+           <div className='px-4 '></div>
     </div>
   )
 }
